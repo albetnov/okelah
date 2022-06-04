@@ -412,5 +412,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .profile-img {
+    max-width: 10rem;
   }
 }
