@@ -42,7 +42,7 @@ a.nav-logo {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #b3e8e5;
+  background-color: #ffc3c3;
 }
 
 .nav-menu {
@@ -58,17 +58,31 @@ a.nav-logo {
 .nav-link {
   font-size: 1.4rem;
   font-weight: semibold;
-  color: #82dbd8;
+  color: #ff5d5d;
 }
 
 .nav-link:hover {
-  color: #b3e8e5;
+  color: #ff8c8c;
 }
 
 .nav-logo {
   font-size: 1.7rem;
   font-weight: 500;
-  color: #3bacb6;
+  color: #f47c7c;
+}
+
+.section-divider {
+  padding: 40px;
+  background-color: #ff8080;
+  color: white;
+}
+
+.sponsors {
+  display: flex;
+  flex-content: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -112,12 +126,12 @@ a.nav-logo {
 }
 
 .brand-mark {
-  color: #2f8f9d;
+  color: #ef9f9f;
   font-weight: bold;
 }
 
 .brand-color {
-  color: #3bacb6;
+  color: #f47c7c;
 }
 
 .container {
@@ -210,9 +224,9 @@ input[type="submit"] {
 }
 
 input:focus {
-  border-color: rgba(59, 130, 246);
-  box-shadow: 0 1px 1px rgba(59, 130, 246, 0.075) inset,
-    0 0 8px rgba(59, 130, 246, 0.8);
+  border-color: rgba(252, 98, 132);
+  box-shadow: 0 1px 1px rgba(252, 98, 132, 0.075) inset,
+    0 0 8px rgba(252, 98, 132, 0.8);
   outline: 0 none;
 }
 
@@ -276,6 +290,10 @@ input:focus {
   border-radius: 20px;
   background-color: #ff5d5d;
   color: white;
+}
+
+.sponsor-img {
+  max-width: 5.5rem;
 }
 
 @media only screen and (min-width: 768px) {
