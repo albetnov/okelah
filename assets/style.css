@@ -347,6 +347,19 @@ footer {
   border-bottom: 2px solid #eeeeee;
 }
 
+.profile-img {
+  margin-top: 1.2rem;
+  border-radius: 10px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1s;
+  max-width: 20rem;
+}
+
+.profile-img:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
 @media only screen and (min-width: 768px) {
   .welcome {
     flex-direction: row;
